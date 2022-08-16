@@ -7,7 +7,7 @@ window.addEventListener('mousemove', () => {
     if (i <= 2){
         setTimeout(() => {
             sound.play();
-        }, 5000);
+        }, 2500);
         console.log('you focused on the window.')
     }
     i++
@@ -20,7 +20,7 @@ setTimeout(() => {
     image.classList.add('scream');
     console.log(image)
     document.body.appendChild(image);
-}, 5000);
+}, 2500);
 
 setTimeout(() => {
     const image = document.createElement('img');
@@ -29,7 +29,7 @@ setTimeout(() => {
     image.classList.add('scream');
     console.log(image)
     document.body.appendChild(image);
-}, 7500);
+}, 5000);
 
 setTimeout(() => {
     const image = document.createElement('img');
@@ -38,26 +38,26 @@ setTimeout(() => {
     image.classList.add('scream');
     console.log(image)
     document.body.appendChild(image);
-}, 10000);
+}, 7500);
 
 setTimeout(() => {
     const container = document.getElementsByClassName('container')[0];
     container.style.visibility = 'hidden';
-}, 14000);
+}, 11500);
 
 setTimeout(() => {
     const pre = document.getElementById('my_code');
     document.body.style.background = 'white';
     pre.style.visibility = 'visible';
-}, 16000);
+}, 13500);
 
 setTimeout(() => {
     const slidans = document.querySelectorAll('.scream');
     for (let i = 0; i < slidans.length; i++){
         slidans[i].style.opacity = '0';
     }
-}, 17500);
+}, 15000);
 
 setTimeout(() => {
     document.body.style.overflowY = 'auto';
-}, 19500);
+}, 17000);
