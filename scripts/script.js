@@ -20,7 +20,7 @@ setTimeout(() => {
     image.classList.add('scream');
     console.log(image)
     document.body.appendChild(image);
-}, 1000);
+}, 500);
 
 setTimeout(() => {
     const image = document.createElement('img');
@@ -29,7 +29,7 @@ setTimeout(() => {
     image.classList.add('scream');
     console.log(image)
     document.body.appendChild(image);
-}, 3500);
+}, 3000);
 
 setTimeout(() => {
     const image = document.createElement('img');
@@ -38,26 +38,26 @@ setTimeout(() => {
     image.classList.add('scream');
     console.log(image)
     document.body.appendChild(image);
-}, 6000);
+}, 5500);
 
 setTimeout(() => {
     const container = document.getElementsByClassName('container')[0];
     container.style.visibility = 'hidden';
-}, 10000);
+}, 9500);
 
 setTimeout(() => {
     const pre = document.getElementById('my_code');
     document.body.style.background = 'white';
     pre.style.visibility = 'visible';
-}, 12000);
+}, 11500);
 
 setTimeout(() => {
     const slidans = document.querySelectorAll('.scream');
     for (let i = 0; i < slidans.length; i++){
         slidans[i].style.opacity = '0';
     }
-}, 13500);
+}, 13000);
 
 setTimeout(() => {
     document.body.style.overflowY = 'auto';
-}, 15500);
+}, 15000);
